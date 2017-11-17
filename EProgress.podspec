@@ -9,29 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'EProgress'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EProgress.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = '可方便在storyboard中使用的进度条'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+方便定制的进度条, 支持storyboard中实时的状态更新
                        DESC
 
-  s.homepage         = 'https://github.com/liuzhen/EProgress'
+  s.homepage         = 'https://github.com/lazyjean/EProgress'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuzhen' => 'lazyjean@foxmail.com' }
-  s.source           = { :git => 'https://github.com/liuzhen/EProgress.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lazyjean/EProgress.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'EProgress/**/*'
-
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
