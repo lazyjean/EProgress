@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3ED22B05C76330DBCFBD18AC /* Pods-EProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EProgress_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EProgress_Example/Pods-EProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43DB994F01230C24CA48FA3D /* EProgress.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EProgress.podspec; path = ../EProgress.podspec; sourceTree = "<group>"; };
+		43DB994F01230C24CA48FA3D /* EProgress.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EProgress.podspec; path = ../EProgress.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EProgress_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EProgress_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		A2DF3C5C86B8E4EA08C77B39 /* Pods-EProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EProgress_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EProgress_Example/Pods-EProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B924C2EBFB4E713164BCDC95 /* Pods-EProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EProgress_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EProgress_Tests/Pods-EProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3F27855160EEA260FB5C0B /* Pods-EProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EProgress_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EProgress_Tests/Pods-EProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF12975B12FA869EC6B0D7B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF12975B12FA869EC6B0D7B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DE6B06F4EA837BF1FDEC9F4C /* Pods_EProgress_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EProgress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9E28F5F6E86AB750ACBBA30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9E28F5F6E86AB750ACBBA30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -518,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -533,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
