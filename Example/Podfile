@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EProgress_Example' do
+  pod 'EProgress', :path => '../'
+
+  target 'EProgress_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
