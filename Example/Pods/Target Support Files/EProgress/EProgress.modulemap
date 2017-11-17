@@ -1,0 +1,6 @@
+framework module EProgress {
+  umbrella header "EProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "EProgress",
+  "version": "0.1.0",
+  "summary": "A short description of EProgress.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuzhen/EProgress",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuzhen": "lazyjean@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liuzhen/EProgress.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EProgress/**/*"
+}
