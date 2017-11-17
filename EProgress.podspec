@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EProgress'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '可方便在storyboard中使用的进度条'
   s.description      = <<-DESC
 方便定制的进度条, 支持storyboard中实时的状态更新
